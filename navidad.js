@@ -1,3 +1,6 @@
+//Para escuchar la musica
+var musica = document.getElementById("musica");
+
 //Te muestra el texto en 3 segundos
 const myTimeout = setTimeout(mostrarSaludo, 3000);
 
@@ -11,6 +14,7 @@ body.addEventListener("click", ocultarSaludo);
 
 function ocultarSaludo() {
     document.getElementById("felicitar").style.visibility="visible";
+    musica.play();
 }
 
 //Te cambia de imagen cuando hace click y te muestra el texto
@@ -20,7 +24,5 @@ bolas.addEventListener("click", ocultarImg);
 function ocultarImg() {
     document.getElementById("bolas").style.visibility="visible";
 }
-
-
 
   

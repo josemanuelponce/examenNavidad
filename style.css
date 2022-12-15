@@ -28,6 +28,10 @@ img {
   visibility: hidden;
 }
 
+audio{
+  display: none;
+}
+
 
 div {
   position:absolute;
