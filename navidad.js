@@ -1,4 +1,4 @@
-//Para escuchar la musica
+//Para poner musica
 var musica = document.getElementById("musica");
 
 //Te muestra el texto en 3 segundos
@@ -8,7 +8,7 @@ function mostrarSaludo() {
   document.getElementById("felicitar").style.visibility="visible";
 }
 
-//Te muestra el texto al hacer click
+//Te muestra el texto al hacer click y se activa la musica
 let body = document.querySelector("body");
 body.addEventListener("click", ocultarSaludo);
 
@@ -24,5 +24,7 @@ bolas.addEventListener("click", ocultarImg);
 function ocultarImg() {
     document.getElementById("bolas").style.visibility="visible";
 }
+
+
 
   

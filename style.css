@@ -10,6 +10,7 @@ body {
   overflow: hidden;
 }
 
+
 img {
   position:absolute;
   top:0;
@@ -64,15 +65,13 @@ p {
   font-size:calc(1.2em + 1vw + 1vh);
   font-weight:bold;
   z-index:2;
-
 }
+
 
 p:nth-child(3) {
   color: green;
   font-style:italic;
 }
-
-
 
 
 @media all and (orientation:landscape){
