@@ -24,6 +24,10 @@ img {
   z-index:0;
 }
 
+#bolas {
+  visibility: hidden;
+}
+
 
 div {
   position:absolute;
