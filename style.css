@@ -10,7 +10,7 @@ body {
   overflow: hidden;
 }
 
-img, #bolas {
+img {
   position:absolute;
   top:0;
   left:0;    
@@ -23,9 +23,7 @@ img, #bolas {
   -webkit-transition: all 1.5s ease;
   z-index:0;
 }
-#bolas{
-  visibility: hidden;
-}
+
 
 div {
   position:absolute;
