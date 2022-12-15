@@ -67,7 +67,7 @@ p:nth-child(3) {
 
 
 
-@media (orientation:landscape){
+@media all and (orientation:landscape){
   img, div {
       width:70vh;
       margin-left:calc(50vw - 35vh);        
