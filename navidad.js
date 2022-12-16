@@ -43,7 +43,7 @@ const crearLluvia = () => {
   lluvia.style.width = size + '%'
   lluvia.style.height = size + '%'
   //el lluvia de nieve se esta insertando dentro del texto
-  fondo.appendChild(lluvia);
+  lluvia.appendChild(lluvia);
 };
 
   
