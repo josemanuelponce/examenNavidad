@@ -10,7 +10,6 @@ body {
   overflow: hidden;
 }
 
-
 img {
   position:absolute;
   top:0;
@@ -19,16 +18,16 @@ img {
   height:100%;
   object-fit: cover;
   object-position: 60% 15%;
-  /* para suavizar los efectos */
+  /* Para suavizar los efectos */
   transition: all 1.5s ease;
   -webkit-transition: all 1.5s ease;
   z-index:0;
 }
-
+/* Para esconder la segunda imagen y salga con el click de javascript */
 #bolas {
   visibility: hidden;
 }
-
+/* Para que el navegador lo esconda */
 audio{
   display: none;
 }
