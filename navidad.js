@@ -29,21 +29,6 @@ function ocultarImg() {
     document.getElementById("bolas").style.visibility="visible";
 }
 
-// Funcion para crear una lluvia
-const crearLluvia = () => {
-  // elemento i se almacena en la variable lluvia
-  let lluvia = document.createElement("i");
-  // x representa la posicion en que se va a poner cada lluvia de nieve que se va a multipiplar por un numero random del ancho
-  let x = innerWidth * Math.random();
-  //para que los lluvias sean diferentes
-  let size = Math.random() * 2;
-  //
-  lluvia.style.left = x + '%';
-  //aqui se llama al style para que los lluvias sean un random de ancho y de largo
-  lluvia.style.width = size + '%'
-  lluvia.style.height = size + '%'
-  //el lluvia de nieve se esta insertando dentro del texto
-  lluvia.appendChild(lluvia);
-};
+
 
   
